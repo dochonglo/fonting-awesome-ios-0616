@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stT-J5-lQU">
+                                <rect key="frame" x="20" y="133" width="163.5" height="30"/>
+                                <state key="normal" title="firstButton"/>
+                                <connections>
+                                    <action selector="firstButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qcs-G0-6TN"/>
+                                    <action selector="firstButtonDidTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="PIR-Ze-oV7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTr-OF-OLm">
+                                <rect key="frame" x="191.5" y="133" width="163.5" height="30"/>
+                                <state key="normal" title="secondButton"/>
+                                <connections>
+                                    <action selector="secondButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2N9-xV-CCq"/>
+                                    <action selector="secondButtonDidTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="fH7-KY-slG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsO-3N-l2v">
+                                <rect key="frame" x="20" y="529" width="161.5" height="30"/>
+                                <state key="normal" title="thirdButton"/>
+                                <connections>
+                                    <action selector="thirdButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajZ-CB-ige"/>
+                                    <action selector="thirdButtonDidTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Nq7-bq-SCh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZL-oa-MUq">
+                                <rect key="frame" x="189.5" y="529" width="161.5" height="30"/>
+                                <state key="normal" title="fourthButton"/>
+                                <connections>
+                                    <action selector="fourthButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7EQ-iP-6rY"/>
+                                    <action selector="fourthButtonDidTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="lNE-Hl-ULo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OTr-OF-OLm" secondAttribute="trailing" constant="20" id="86i-VS-DDW"/>
+                            <constraint firstItem="stT-J5-lQU" firstAttribute="width" secondItem="OTr-OF-OLm" secondAttribute="width" id="9J4-xy-mnq"/>
+                            <constraint firstItem="WsO-3N-l2v" firstAttribute="height" secondItem="RZL-oa-MUq" secondAttribute="height" id="IXO-yp-tvT"/>
+                            <constraint firstItem="OTr-OF-OLm" firstAttribute="leading" secondItem="stT-J5-lQU" secondAttribute="trailing" constant="166" id="Km3-V8-zC8"/>
+                            <constraint firstItem="RZL-oa-MUq" firstAttribute="leading" secondItem="WsO-3N-l2v" secondAttribute="trailing" constant="8" symbolic="YES" id="N7t-T9-bSi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WsO-3N-l2v" secondAttribute="bottom" constant="108" id="Per-bi-0cU"/>
+                            <constraint firstItem="OTr-OF-OLm" firstAttribute="leading" secondItem="stT-J5-lQU" secondAttribute="trailing" constant="8" symbolic="YES" id="RFe-nK-Brd"/>
+                            <constraint firstItem="WsO-3N-l2v" firstAttribute="width" secondItem="RZL-oa-MUq" secondAttribute="width" id="Rno-zW-xad"/>
+                            <constraint firstItem="WsO-3N-l2v" firstAttribute="top" secondItem="stT-J5-lQU" secondAttribute="bottom" constant="366" id="SAN-wK-zHd"/>
+                            <constraint firstItem="WsO-3N-l2v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="U2W-DB-E7Z"/>
+                            <constraint firstAttribute="trailing" secondItem="RZL-oa-MUq" secondAttribute="trailing" constant="24" id="ZcD-am-dQI"/>
+                            <constraint firstItem="stT-J5-lQU" firstAttribute="height" secondItem="OTr-OF-OLm" secondAttribute="height" id="ac9-vr-8xV"/>
+                            <constraint firstItem="stT-J5-lQU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="aqO-Zq-1Vg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RZL-oa-MUq" secondAttribute="bottom" constant="108" id="giV-83-jaW"/>
+                            <constraint firstItem="RZL-oa-MUq" firstAttribute="top" secondItem="OTr-OF-OLm" secondAttribute="bottom" constant="366" id="jH0-pg-tpQ"/>
+                            <constraint firstItem="stT-J5-lQU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="113" id="qEF-od-Lzl"/>
+                            <constraint firstItem="OTr-OF-OLm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="113" id="yAG-Ss-M9L"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Km3-V8-zC8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="firstButton" destination="stT-J5-lQU" id="l0W-vq-JcI"/>
+                        <outlet property="fourthButton" destination="RZL-oa-MUq" id="BDH-Gs-wvF"/>
+                        <outlet property="secondButton" destination="OTr-OF-OLm" id="spf-Kz-Glf"/>
+                        <outlet property="thirdButton" destination="WsO-3N-l2v" id="8eZ-2V-Kwf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

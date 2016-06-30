@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3B0B071D2561F900F2FE88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B0B061D2561F900F2FE88 /* main.m */; };
+		2C3B0B0A1D2561F900F2FE88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B0B091D2561F900F2FE88 /* AppDelegate.m */; };
+		2C3B0B0D1D2561F900F2FE88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B0B0C1D2561F900F2FE88 /* ViewController.m */; };
+		2C3B0B101D2561F900F2FE88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3B0B0E1D2561F900F2FE88 /* Main.storyboard */; };
+		2C3B0B121D2561F900F2FE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3B0B111D2561F900F2FE88 /* Assets.xcassets */; };
+		2C3B0B151D2561F900F2FE88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3B0B131D2561F900F2FE88 /* LaunchScreen.storyboard */; };
+		2C3B0B201D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B0B1F1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsTests.m */; };
+		2C3B0B2B1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B0B2A1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsUITests.m */; };
+		A8AD1F110F8AD479BEACE054 /* libPods-Fonting-Awesome-Flatiron-CocoaPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A9544B91053328DE1DD10 /* libPods-Fonting-Awesome-Flatiron-CocoaPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C3B0B1C1D2561F900F2FE88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3B0AFA1D2561F900F2FE88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3B0B011D2561F900F2FE88;
+			remoteInfo = "Fonting-Awesome-Flatiron-CocoaPods";
+		};
+		2C3B0B271D2561F900F2FE88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3B0AFA1D2561F900F2FE88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3B0B011D2561F900F2FE88;
+			remoteInfo = "Fonting-Awesome-Flatiron-CocoaPods";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C3B0B021D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fonting-Awesome-Flatiron-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3B0B061D2561F900F2FE88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C3B0B081D2561F900F2FE88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C3B0B091D2561F900F2FE88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C3B0B0B1D2561F900F2FE88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C3B0B0C1D2561F900F2FE88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C3B0B0F1D2561F900F2FE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C3B0B111D2561F900F2FE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C3B0B141D2561F900F2FE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C3B0B161D2561F900F2FE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3B0B1B1D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fonting-Awesome-Flatiron-CocoaPodsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3B0B1F1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fonting_Awesome_Flatiron_CocoaPodsTests.m; sourceTree = "<group>"; };
+		2C3B0B211D2561F900F2FE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3B0B261D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fonting-Awesome-Flatiron-CocoaPodsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3B0B2A1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fonting_Awesome_Flatiron_CocoaPodsUITests.m; sourceTree = "<group>"; };
+		2C3B0B2C1D2561F900F2FE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30037C9C224C2BE4A8AB085A /* Pods-Fonting-Awesome-Flatiron-CocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonting-Awesome-Flatiron-CocoaPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fonting-Awesome-Flatiron-CocoaPods/Pods-Fonting-Awesome-Flatiron-CocoaPods.release.xcconfig"; sourceTree = "<group>"; };
+		7321258DD7CE01F0C0DE35EF /* libPods-Fonting-Awesome-Flatiron-CocoaPodsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fonting-Awesome-Flatiron-CocoaPodsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBA3AE82F4B0DA30FE4AA4B /* Pods-Fonting-Awesome-Flatiron-CocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonting-Awesome-Flatiron-CocoaPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fonting-Awesome-Flatiron-CocoaPods/Pods-Fonting-Awesome-Flatiron-CocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
+		9F4A9544B91053328DE1DD10 /* libPods-Fonting-Awesome-Flatiron-CocoaPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fonting-Awesome-Flatiron-CocoaPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8927E39747A1895F5BCF5A1 /* libPods-Fonting-Awesome-Flatiron-CocoaPodsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fonting-Awesome-Flatiron-CocoaPodsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C3B0AFF1D2561F900F2FE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AD1F110F8AD479BEACE054 /* libPods-Fonting-Awesome-Flatiron-CocoaPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3B0B181D2561F900F2FE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3B0B231D2561F900F2FE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3B0AF91D2561F900F2FE88 = {
+			isa = PBXGroup;
+			children = (
+				2C3B0B041D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods */,
+				2C3B0B1E1D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsTests */,
+				2C3B0B291D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsUITests */,
+				2C3B0B031D2561F900F2FE88 /* Products */,
+				42A569A769C5DE99C0C92B16 /* Pods */,
+				F91AB1CDB5B8FA050AC6A145 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C3B0B031D2561F900F2FE88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3B0B021D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods.app */,
+				2C3B0B1B1D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsTests.xctest */,
+				2C3B0B261D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C3B0B041D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				2C3B0B081D2561F900F2FE88 /* AppDelegate.h */,
+				2C3B0B091D2561F900F2FE88 /* AppDelegate.m */,
+				2C3B0B0B1D2561F900F2FE88 /* ViewController.h */,
+				2C3B0B0C1D2561F900F2FE88 /* ViewController.m */,
+				2C3B0B0E1D2561F900F2FE88 /* Main.storyboard */,
+				2C3B0B111D2561F900F2FE88 /* Assets.xcassets */,
+				2C3B0B131D2561F900F2FE88 /* LaunchScreen.storyboard */,
+				2C3B0B161D2561F900F2FE88 /* Info.plist */,
+				2C3B0B051D2561F900F2FE88 /* Supporting Files */,
+			);
+			path = "Fonting-Awesome-Flatiron-CocoaPods";
+			sourceTree = "<group>";
+		};
+		2C3B0B051D2561F900F2FE88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C3B0B061D2561F900F2FE88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C3B0B1E1D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C3B0B1F1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsTests.m */,
+				2C3B0B211D2561F900F2FE88 /* Info.plist */,
+			);
+			path = "Fonting-Awesome-Flatiron-CocoaPodsTests";
+			sourceTree = "<group>";
+		};
+		2C3B0B291D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C3B0B2A1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsUITests.m */,
+				2C3B0B2C1D2561F900F2FE88 /* Info.plist */,
+			);
+			path = "Fonting-Awesome-Flatiron-CocoaPodsUITests";
+			sourceTree = "<group>";
+		};
+		42A569A769C5DE99C0C92B16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CBA3AE82F4B0DA30FE4AA4B /* Pods-Fonting-Awesome-Flatiron-CocoaPods.debug.xcconfig */,
+				30037C9C224C2BE4A8AB085A /* Pods-Fonting-Awesome-Flatiron-CocoaPods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F91AB1CDB5B8FA050AC6A145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A9544B91053328DE1DD10 /* libPods-Fonting-Awesome-Flatiron-CocoaPods.a */,
+				7321258DD7CE01F0C0DE35EF /* libPods-Fonting-Awesome-Flatiron-CocoaPodsTests.a */,
+				A8927E39747A1895F5BCF5A1 /* libPods-Fonting-Awesome-Flatiron-CocoaPodsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C3B0B011D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3B0B2F1D2561F900F2FE88 /* Build configuration list for PBXNativeTarget "Fonting-Awesome-Flatiron-CocoaPods" */;
+			buildPhases = (
+				52734FAB3D8E965E38912C56 /* [CP] Check Pods Manifest.lock */,
+				2C3B0AFE1D2561F900F2FE88 /* Sources */,
+				2C3B0AFF1D2561F900F2FE88 /* Frameworks */,
+				2C3B0B001D2561F900F2FE88 /* Resources */,
+				E8E564E5C19BAF0C67588EAE /* [CP] Embed Pods Frameworks */,
+				0742FE049E9DC00372DACD3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fonting-Awesome-Flatiron-CocoaPods";
+			productName = "Fonting-Awesome-Flatiron-CocoaPods";
+			productReference = 2C3B0B021D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C3B0B1A1D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3B0B321D2561F900F2FE88 /* Build configuration list for PBXNativeTarget "Fonting-Awesome-Flatiron-CocoaPodsTests" */;
+			buildPhases = (
+				C8728F82565C18594CD2858D /* [CP] Check Pods Manifest.lock */,
+				2C3B0B171D2561F900F2FE88 /* Sources */,
+				2C3B0B181D2561F900F2FE88 /* Frameworks */,
+				2C3B0B191D2561F900F2FE88 /* Resources */,
+				20CB5970AEB49ED520E15471 /* [CP] Embed Pods Frameworks */,
+				00A823D34A560A9859E29C70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C3B0B1D1D2561F900F2FE88 /* PBXTargetDependency */,
+			);
+			name = "Fonting-Awesome-Flatiron-CocoaPodsTests";
+			productName = "Fonting-Awesome-Flatiron-CocoaPodsTests";
+			productReference = 2C3B0B1B1D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C3B0B251D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3B0B351D2561F900F2FE88 /* Build configuration list for PBXNativeTarget "Fonting-Awesome-Flatiron-CocoaPodsUITests" */;
+			buildPhases = (
+				6D5375AC3DFA68284870F98B /* [CP] Check Pods Manifest.lock */,
+				2C3B0B221D2561F900F2FE88 /* Sources */,
+				2C3B0B231D2561F900F2FE88 /* Frameworks */,
+				2C3B0B241D2561F900F2FE88 /* Resources */,
+				B7DCFDE37E0AB3191C3899AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C3B0B281D2561F900F2FE88 /* PBXTargetDependency */,
+			);
+			name = "Fonting-Awesome-Flatiron-CocoaPodsUITests";
+			productName = "Fonting-Awesome-Flatiron-CocoaPodsUITests";
+			productReference = 2C3B0B261D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C3B0AFA1D2561F900F2FE88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ismael Barry";
+				TargetAttributes = {
+					2C3B0B011D2561F900F2FE88 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2C3B0B1A1D2561F900F2FE88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C3B0B011D2561F900F2FE88;
+					};
+					2C3B0B251D2561F900F2FE88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C3B0B011D2561F900F2FE88;
+					};
+				};
+			};
+			buildConfigurationList = 2C3B0AFD1D2561F900F2FE88 /* Build configuration list for PBXProject "Fonting-Awesome-Flatiron-CocoaPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C3B0AF91D2561F900F2FE88;
+			productRefGroup = 2C3B0B031D2561F900F2FE88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C3B0B011D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods */,
+				2C3B0B1A1D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsTests */,
+				2C3B0B251D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3B0B001D2561F900F2FE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3B0B151D2561F900F2FE88 /* LaunchScreen.storyboard in Resources */,
+				2C3B0B121D2561F900F2FE88 /* Assets.xcassets in Resources */,
+				2C3B0B101D2561F900F2FE88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3B0B191D2561F900F2FE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3B0B241D2561F900F2FE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A823D34A560A9859E29C70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fonting-Awesome-Flatiron-CocoaPodsTests/Pods-Fonting-Awesome-Flatiron-CocoaPodsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0742FE049E9DC00372DACD3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fonting-Awesome-Flatiron-CocoaPods/Pods-Fonting-Awesome-Flatiron-CocoaPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20CB5970AEB49ED520E15471 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fonting-Awesome-Flatiron-CocoaPodsTests/Pods-Fonting-Awesome-Flatiron-CocoaPodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52734FAB3D8E965E38912C56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D5375AC3DFA68284870F98B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DCFDE37E0AB3191C3899AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fonting-Awesome-Flatiron-CocoaPodsUITests/Pods-Fonting-Awesome-Flatiron-CocoaPodsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8728F82565C18594CD2858D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E564E5C19BAF0C67588EAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fonting-Awesome-Flatiron-CocoaPods/Pods-Fonting-Awesome-Flatiron-CocoaPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3B0AFE1D2561F900F2FE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3B0B0D1D2561F900F2FE88 /* ViewController.m in Sources */,
+				2C3B0B0A1D2561F900F2FE88 /* AppDelegate.m in Sources */,
+				2C3B0B071D2561F900F2FE88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3B0B171D2561F900F2FE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3B0B201D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3B0B221D2561F900F2FE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3B0B2B1D2561F900F2FE88 /* Fonting_Awesome_Flatiron_CocoaPodsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C3B0B1D1D2561F900F2FE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3B0B011D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods */;
+			targetProxy = 2C3B0B1C1D2561F900F2FE88 /* PBXContainerItemProxy */;
+		};
+		2C3B0B281D2561F900F2FE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3B0B011D2561F900F2FE88 /* Fonting-Awesome-Flatiron-CocoaPods */;
+			targetProxy = 2C3B0B271D2561F900F2FE88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C3B0B0E1D2561F900F2FE88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3B0B0F1D2561F900F2FE88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C3B0B131D2561F900F2FE88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3B0B141D2561F900F2FE88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C3B0B2D1D2561F900F2FE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C3B0B2E1D2561F900F2FE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C3B0B301D2561F900F2FE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CBA3AE82F4B0DA30FE4AA4B /* Pods-Fonting-Awesome-Flatiron-CocoaPods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fonting-Awesome-Flatiron-CocoaPods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismaelbarry.Fonting-Awesome-Flatiron-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C3B0B311D2561F900F2FE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30037C9C224C2BE4A8AB085A /* Pods-Fonting-Awesome-Flatiron-CocoaPods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fonting-Awesome-Flatiron-CocoaPods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismaelbarry.Fonting-Awesome-Flatiron-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C3B0B331D2561F900F2FE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fonting-Awesome-Flatiron-CocoaPodsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismaelbarry.Fonting-Awesome-Flatiron-CocoaPodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fonting-Awesome-Flatiron-CocoaPods.app/Fonting-Awesome-Flatiron-CocoaPods";
+			};
+			name = Debug;
+		};
+		2C3B0B341D2561F900F2FE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fonting-Awesome-Flatiron-CocoaPodsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismaelbarry.Fonting-Awesome-Flatiron-CocoaPodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fonting-Awesome-Flatiron-CocoaPods.app/Fonting-Awesome-Flatiron-CocoaPods";
+			};
+			name = Release;
+		};
+		2C3B0B361D2561F900F2FE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fonting-Awesome-Flatiron-CocoaPodsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismaelbarry.Fonting-Awesome-Flatiron-CocoaPodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fonting-Awesome-Flatiron-CocoaPods";
+			};
+			name = Debug;
+		};
+		2C3B0B371D2561F900F2FE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fonting-Awesome-Flatiron-CocoaPodsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ismaelbarry.Fonting-Awesome-Flatiron-CocoaPodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fonting-Awesome-Flatiron-CocoaPods";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3B0AFD1D2561F900F2FE88 /* Build configuration list for PBXProject "Fonting-Awesome-Flatiron-CocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3B0B2D1D2561F900F2FE88 /* Debug */,
+				2C3B0B2E1D2561F900F2FE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3B0B2F1D2561F900F2FE88 /* Build configuration list for PBXNativeTarget "Fonting-Awesome-Flatiron-CocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3B0B301D2561F900F2FE88 /* Debug */,
+				2C3B0B311D2561F900F2FE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3B0B321D2561F900F2FE88 /* Build configuration list for PBXNativeTarget "Fonting-Awesome-Flatiron-CocoaPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3B0B331D2561F900F2FE88 /* Debug */,
+				2C3B0B341D2561F900F2FE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3B0B351D2561F900F2FE88 /* Build configuration list for PBXNativeTarget "Fonting-Awesome-Flatiron-CocoaPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3B0B361D2561F900F2FE88 /* Debug */,
+				2C3B0B371D2561F900F2FE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C3B0AFA1D2561F900F2FE88 /* Project object */;
+}
